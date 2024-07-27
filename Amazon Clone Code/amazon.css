@@ -1,0 +1,393 @@
+*{
+    margin:0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navlogo{
+    height: 50px;
+    width: 130px;
+}
+
+#logo{
+    background-image: url(amazon\ logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/*2nd box*/
+
+.loca{
+    display: flex;
+}
+.first-ad{
+    font-size: 0.85rem;
+    margin-left: 31px;
+}
+.second-ad{
+    font-size: 1rem;
+}
+#x{
+    margin-left: 15px;
+}
+/* box 3*/
+
+
+.select{
+    display: flex;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.select:hover{
+    border: 2px solid orange;
+}
+
+#opt{
+    
+    width: 50px;
+   
+    text-align: center;
+    font-size: 14px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#search-input{
+    width: 500px;
+    font-size: 1rem;
+}
+.but{
+    height: 100%;
+    width: 45px;
+    background-color: rgb(227, 167, 97);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 20px;
+}
+
+
+/*box 4*/
+
+.p1{
+    font-size: 13px;
+}
+.p2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.cart{
+    display: flex;
+    
+}
+#c{
+    font-size: 32px;
+}
+.Fs{
+    font-size: 15px;
+    padding-top: 14px;
+    font-weight: 700;
+}
+
+/*5*/
+.lang{
+    padding-top: 8px;
+    font-size:24px ;
+    display: flex;
+}
+#lan{
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+/* 2nd part*/
+.panel{
+    height: 40px;
+    
+    background-color: #222f3d;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+   
+
+    
+    
+}
+.panel-opts{
+    display: flex;
+    margin-left: 30px;
+    
+}
+#n{
+    padding-top: 2px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.p3{
+    padding-top: 4px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.panel-deals p{
+    display: inline;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.panel-deals{
+    width: 70%;
+}
+
+/*3rd part*/
+.hero{
+    background-image: url("hero\ image.jpg");
+    background-size: cover;
+    height: 300px;
+    font-size: 14px;
+}
+.rough{
+    background-color: aliceblue;
+    height: 40px;
+    width: 800px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 240px;
+    left: 360px;
+    
+}
+
+/*last pert*/
+.shop_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(202, 199, 199);
+}
+.box{
+    height: 400px;
+    width: 320px;
+    
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-top:13px ;
+}
+
+/*1st image*/
+
+
+.img1{
+    background-image: url("toys_img1.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 300px;
+    height: 300px;
+}
+.box a{
+    position: relative;
+    top: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/*2nd img*/
+.img2{
+    background-image: url("img2.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 300px;
+    height: 300px;
+}
+
+
+/*3rd img*/
+.img_collection{
+    display: flex;
+}
+.img3{
+    background-image: url("img3.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 300px;
+    height: 170px;
+}
+
+.img4{
+    background-image: url("img4.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 113px;
+    height: 75px;
+}
+.img5{
+    background-image: url("img5.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 113px;
+    height: 75px;
+}
+.img6{
+    background-image: url("img6.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 113px;
+    height: 75px;
+    margin-right: 10px;
+}
+
+.img7{
+    background-image: url("img7.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 300px;
+    height: 270px;
+    margin-right: 10px;
+}
+
+.img8{
+    background-image: url("img8.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 300px;
+    height: 270px;
+    margin-right: 10px;
+}
+
+.x_img9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sub_img1{
+    background-image: url("x1.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 140px;
+
+    margin-top: 15px;
+}
+.sub_img2{
+    background-image:url("x2.jpg") ;
+    background-size: cover;
+    height: 100px;
+    width: 140px;
+
+    margin-top: 15px;
+}
+.y_img9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sub_img3{
+    background-image: url("x3.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 140px;
+
+    margin-top: 25px;
+    margin-right: 16px;
+}
+.sub_img4{
+    background-image: url("img4.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 140px;
+
+    margin-top: 25px;
+}
+
+.img10{
+    background-image: url("img10.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 300px;
+    height: 270px;
+    margin-right: 10px;
+}
+
+.img11{
+    background-image: url("img11.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:15px;
+    width: 300px;
+    height: 270px;
+    margin-right: 10px;
+}
+/*last part*/
+
+.panel_last1{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel_last2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+}
+.boxxx{
+    height: 400px;
+    width: 320px;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    display: block;
+    line-height: 2.2;
+}
+
+.b1 a{
+    display: block;
+    font-size: 14px;
+}  
+
+
+.b2 a{
+    display: block;
+    font-size: 14px;
+}
+
+.b3 a{
+    display: block;
+    font-size: 14px;
+}
